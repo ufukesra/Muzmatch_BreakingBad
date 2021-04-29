@@ -1,0 +1,414 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-29T19:08:57.876Z",
+        "before": [
+          {
+            "result": {
+              "duration": 900102532,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a user I would like to see all characters in Breaking Bad",
+        "description": "",
+        "id": "characters-of-breaking-bad;as-a-user-i-would-like-to-see-all-characters-in-breaking-bad",
+        "after": [
+          {
+            "result": {
+              "duration": 326263,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3529848843,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "send a get request to characters Endpoint",
+            "match": {
+              "location": "CharactersStepDef.send_a_get_request_to_characters_Endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1676422,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the size of characters is 62",
+            "match": {
+              "arguments": [
+                {
+                  "val": "62",
+                  "offset": 33
+                }
+              ],
+              "location": "CharactersStepDef.verify_the_size_of_characters_is(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-29T19:09:02.357Z",
+        "before": [
+          {
+            "result": {
+              "duration": 137779,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "As a DEA staff I want to make sure Walter White is Heisenberg",
+        "description": "",
+        "id": "characters-of-breaking-bad;as-a-dea-staff-i-want-to-make-sure-walter-white-is-heisenberg",
+        "after": [
+          {
+            "result": {
+              "duration": 264257,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1048362401,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "send a get request to characters Endpoint",
+            "match": {
+              "location": "CharactersStepDef.send_a_get_request_to_characters_Endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137601860,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify nickname of \"Walter White\" is \"Heisenberg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Walter White\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Heisenberg\"",
+                  "offset": 37
+                }
+              ],
+              "location": "CharactersStepDef.verify_nickname_of_is(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-29T19:09:03.548Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3182358,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "As a user I shouldn\u0027t send a request to invalid endpoint",
+        "description": "",
+        "id": "characters-of-breaking-bad;as-a-user-i-shouldn-t-send-a-request-to-invalid-endpoint",
+        "after": [
+          {
+            "result": {
+              "duration": 1326057,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1449361889,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "send a request to invalid endpoint",
+            "match": {
+              "location": "CharactersStepDef.send_a_request_to_invalid_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat endpoints.Characters.verifyWithStatusCode(Characters.java:59)\n\tat step_def.CharactersStepDef.verify_status_code(CharactersStepDef.java:31)\n\tat ✽.verify status code 400(file:src/test/resources/features/characters.feature:15)\n",
+              "duration": 1794942,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "verify status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 19
+                }
+              ],
+              "location": "CharactersStepDef.verify_status_code(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature"
+          }
+        ]
+      }
+    ],
+    "name": "Characters of Breaking Bad",
+    "description": "",
+    "id": "characters-of-breaking-bad",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/characters.feature",
+    "tags": [
+      {
+        "name": "@feature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-29T19:09:05.037Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2576625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a user I want to see how many episodes are there in each season",
+        "description": "",
+        "id": "episodes-for-all-seasons;as-a-user-i-want-to-see-how-many-episodes-are-there-in-each-season",
+        "after": [
+          {
+            "result": {
+              "duration": 265759,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1051373727,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "send a get request to episode endpoint",
+            "match": {
+              "location": "EpisodesStepDef.send_a_get_request_to_episode_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38168719,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify episodes for each season",
+            "match": {
+              "location": "EpisodesStepDef.verify_episodes_for_each_season(Integer,Integer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "16"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "23"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "23"
+                ]
+              },
+              {
+                "cells": [
+                  "4",
+                  "23"
+                ]
+              },
+              {
+                "cells": [
+                  "5",
+                  "16"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@episode"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-29T19:09:06.143Z",
+        "before": [
+          {
+            "result": {
+              "duration": 109275,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "As a user I shouldn\u0027t send a request to invalid endpoint",
+        "description": "",
+        "id": "episodes-for-all-seasons;as-a-user-i-shouldn-t-send-a-request-to-invalid-endpoint",
+        "after": [
+          {
+            "result": {
+              "duration": 167880,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 921438637,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "send a request to invalid endpoint",
+            "match": {
+              "location": "CharactersStepDef.send_a_request_to_invalid_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat endpoints.Characters.verifyWithStatusCode(Characters.java:59)\n\tat step_def.CharactersStepDef.verify_status_code(CharactersStepDef.java:31)\n\tat ✽.verify status code 400(file:src/test/resources/features/episodes.feature:18)\n",
+              "duration": 564628,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "verify status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 19
+                }
+              ],
+              "location": "CharactersStepDef.verify_status_code(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@episode"
+          }
+        ]
+      }
+    ],
+    "name": "Episodes for all seasons",
+    "description": "",
+    "id": "episodes-for-all-seasons",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/episodes.feature",
+    "tags": [
+      {
+        "name": "@episode",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

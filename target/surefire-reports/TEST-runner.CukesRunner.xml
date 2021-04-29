@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.CukesRunner" time="9.706" tests="5" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ufuksahinduran/Desktop/PROJECTS/MM-Test/target/test-classes:/Users/ufuksahinduran/Desktop/PROJECTS/MM-Test/target/classes:/Users/ufuksahinduran/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/Users/ufuksahinduran/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/Users/ufuksahinduran/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/Users/ufuksahinduran/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ufuksahinduran/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ufuksahinduran/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ufuksahinduran/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ufuksahinduran/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/ufuksahinduran/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ufuksahinduran/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ufuksahinduran/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/Users/ufuksahinduran/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/Users/ufuksahinduran/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/Users/ufuksahinduran/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/Users/ufuksahinduran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/ufuksahinduran/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/ufuksahinduran/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/ufuksahinduran/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/ufuksahinduran/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/ufuksahinduran/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/cucumber-junit/4.8.1/cucumber-junit-4.8.1.jar:/Users/ufuksahinduran/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/cucumber-core/4.8.1/cucumber-core-4.8.1.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/cucumber-expressions/7.0.2/cucumber-expressions-7.0.2.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/datatable/1.1.14/datatable-1.1.14.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/datatable-dependencies/1.1.14/datatable-dependencies-1.1.14.jar:/Users/ufuksahinduran/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ufuksahinduran/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/cucumber-java/4.8.1/cucumber-java-4.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ufuksahinduran/Desktop/PROJECTS/MM-Test/target/surefire/surefirebooter18433272203308750039.jar /Users/ufuksahinduran/Desktop/PROJECTS/MM-Test/target/surefire 2021-04-29T20-08-56_783-jvmRun1 surefire10843700179455282357tmp surefire_010881618542955006136tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ufuksahinduran/Desktop/PROJECTS/MM-Test/target/test-classes:/Users/ufuksahinduran/Desktop/PROJECTS/MM-Test/target/classes:/Users/ufuksahinduran/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/Users/ufuksahinduran/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/Users/ufuksahinduran/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/Users/ufuksahinduran/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ufuksahinduran/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ufuksahinduran/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ufuksahinduran/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ufuksahinduran/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/ufuksahinduran/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ufuksahinduran/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ufuksahinduran/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/Users/ufuksahinduran/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/Users/ufuksahinduran/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/Users/ufuksahinduran/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/Users/ufuksahinduran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/ufuksahinduran/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/ufuksahinduran/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/ufuksahinduran/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/ufuksahinduran/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/ufuksahinduran/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/cucumber-junit/4.8.1/cucumber-junit-4.8.1.jar:/Users/ufuksahinduran/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/cucumber-core/4.8.1/cucumber-core-4.8.1.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/cucumber-expressions/7.0.2/cucumber-expressions-7.0.2.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/datatable/1.1.14/datatable-1.1.14.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/datatable-dependencies/1.1.14/datatable-dependencies-1.1.14.jar:/Users/ufuksahinduran/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ufuksahinduran/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ufuksahinduran/.m2/repository/io/cucumber/cucumber-java/4.8.1/cucumber-java-4.8.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ufuksahinduran"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ufuksahinduran/Desktop/PROJECTS/MM-Test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/ufuksahinduran/Desktop/PROJECTS/MM-Test/target/surefire/surefirebooter18433272203308750039.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
+    <property name="user.name" value="ufuksahinduran"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/ufuksahinduran/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/g2/xbbpgxr51233yg1kky69g16m0000gn/T/"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.dir" value="/Users/ufuksahinduran/Desktop/PROJECTS/MM-Test"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/ufuksahinduran/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="As a user I would like to see all characters in Breaking Bad" classname="Characters of Breaking Bad" time="4.48"/>
+  <testcase name="As a DEA staff I want to make sure Walter White is Heisenberg" classname="Characters of Breaking Bad" time="1.189"/>
+  <testcase name="As a user I shouldn&apos;t send a request to invalid endpoint" classname="Characters of Breaking Bad" time="1.487">
+    <failure message="expected:&lt;400&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<400> but was:<200>
+]]></failure>
+    <system-out><![CDATA[[@feature]
+As a user I shouldn't send a request to invalid endpoint
+BEFORE
+Request method:	GET
+Request URI:	https://breakingbadapi.com/api/invalidEndPoint
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Thu, 29 Apr 2021 19:09:04 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit: 10000
+X-RateLimit-Remaining: 9943
+X-RateLimit-Reset: 1619723854
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Fri, 26 Mar 2021 16:47:13 GMT
+ETag: W/"921-1786f6ec47e"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+    <meta name="theme-color" content="#000000"/>
+    <link rel="manifest" href="/manifest.json"/>
+    <title>The Breaking Bad API</title>
+    <meta name="Description" content="If you're looking for the greatest API for the best tv show, look no further. Here is the one and only, Breaking Bad API documentation"/>
+    <meta name="google-site-verification" content="dZ5jz5BFOr9lo-hgKTgT77DavxzbF7L_RBGftqTLBRA"/>
+    <link href="/static/css/main.887a180a.chunk.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"/>
+    <script>!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f&lt;n.length;f++)t=n[f],p[t]&amp;&amp;i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&amp;&amp;(l[r]=o[r]);for(s&amp;&amp;s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r&lt;c.length;r++){for(var t=c[r],n=!0,o=1;o&lt;t.length;o++){var u=t[o];0!==p[u]&amp;&amp;(n=!1)}n&amp;&amp;(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={2:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&amp;&amp;Symbol.toStringTag&amp;&amp;Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&amp;e&amp;&amp;(r=f(r)),8&amp;e)return r;if(4&amp;e&amp;&amp;"object"==typeof r&amp;&amp;r&amp;&amp;r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&amp;e&amp;&amp;"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&amp;&amp;e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o&lt;r.length;o++)e(r[o]);var s=n;a()}([])</script>
+    <script src="/static/js/1.09181c5c.chunk.js"/>
+    <script src="/static/js/main.f4f93aaf.chunk.js"/>
+  </body>
+</html>
+AFTER
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I want to see how many episodes are there in each season" classname="Episodes for all seasons" time="1.106"/>
+  <testcase name="As a user I shouldn&apos;t send a request to invalid endpoint" classname="Episodes for all seasons" time="0.933">
+    <failure message="expected:&lt;400&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<400> but was:<200>
+]]></failure>
+    <system-out><![CDATA[[@episode]
+As a user I shouldn't send a request to invalid endpoint
+BEFORE
+Request method:	GET
+Request URI:	https://breakingbadapi.com/api/invalidEndPoint
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Thu, 29 Apr 2021 19:09:06 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit: 10000
+X-RateLimit-Remaining: 9941
+X-RateLimit-Reset: 1619723854
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Fri, 26 Mar 2021 16:47:13 GMT
+ETag: W/"921-1786f6ec47e"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+    <meta name="theme-color" content="#000000"/>
+    <link rel="manifest" href="/manifest.json"/>
+    <title>The Breaking Bad API</title>
+    <meta name="Description" content="If you're looking for the greatest API for the best tv show, look no further. Here is the one and only, Breaking Bad API documentation"/>
+    <meta name="google-site-verification" content="dZ5jz5BFOr9lo-hgKTgT77DavxzbF7L_RBGftqTLBRA"/>
+    <link href="/static/css/main.887a180a.chunk.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"/>
+    <script>!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f&lt;n.length;f++)t=n[f],p[t]&amp;&amp;i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&amp;&amp;(l[r]=o[r]);for(s&amp;&amp;s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r&lt;c.length;r++){for(var t=c[r],n=!0,o=1;o&lt;t.length;o++){var u=t[o];0!==p[u]&amp;&amp;(n=!1)}n&amp;&amp;(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={2:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&amp;&amp;Symbol.toStringTag&amp;&amp;Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&amp;e&amp;&amp;(r=f(r)),8&amp;e)return r;if(4&amp;e&amp;&amp;"object"==typeof r&amp;&amp;r&amp;&amp;r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&amp;e&amp;&amp;"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&amp;&amp;e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o&lt;r.length;o++)e(r[o]);var s=n;a()}([])</script>
+    <script src="/static/js/1.09181c5c.chunk.js"/>
+    <script src="/static/js/main.f4f93aaf.chunk.js"/>
+  </body>
+</html>
+AFTER
+]]></system-out>
+  </testcase>
+</testsuite>
